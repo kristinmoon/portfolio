@@ -4,7 +4,7 @@ An online portfolio of my coding work thus far.
 
 ## Link to Deployed Application
 
-<a href="https://kristinmoon.github.io/portfolio/" target="_blank">kristinmoon.github.io/portfolio</a>
+<a href="https://kristinmoon.github.io/portfolio" target="_blank">https://kristinmoon.github.io/portfolio</a>
 
 ## Screencapture
 
