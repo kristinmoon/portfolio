@@ -14,11 +14,6 @@ body {
   font-weight: normal;
 }
 
-header a {
-  color: #737373;
-  text-decoration: none;
-}
-
 header {
   padding: 20px;
   background-color: #f2f2f2;
@@ -50,6 +45,11 @@ header nav {
   font-size: 24px;
 }
 
+header a {
+  color: #737373;
+  text-decoration: none;
+}
+
 header nav ul li {
   display: inline-block;
   margin-left: 25px;
@@ -64,27 +64,27 @@ header nav ul li {
 }
 
 .hero h2 {
-  color: #c59da5;
+  background: #c59da5;
+  color: #272727;
   font-weight: normal;
-  float: right;
-  margin-right: 20px;
+  position: absolute;
+  top: 400px;
+  text-align: right;
+  right: 20px;
+  top: 424px;
+  padding: 10px;
 }
 
-.flex-row {
-  display: flex;
-}
-
-.step {
+.flexbox {
     margin: 40px auto;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: top;
     justify-content: space-between;
-
 }
 
-.step h3 {
+.flexbox h3 {
   font-weight: normal;
   font-size: 48px;
   color: #c59da5;
@@ -96,28 +96,27 @@ header nav ul li {
   line-height: .75;
 }
 
-
-.step-info {
+.flexbox-info {
     flex: 2 80%;
     display: flex;
     flex-wrap: wrap;
     align-items: left;
 }
 
-.step-img {
+.flexbox-img {
   flex: 1 12%;
   margin-right: 20px;
 }
 
-.step-img img {
+.flexbox-img img {
   max-width: 100%;
 }
 
-.step-text {
+.flexbox-text {
     flex: 5;
 }
 
-.step-text p {
+.flexbox-text p {
   color: #737373;
   font-size: 18px;
 }
@@ -126,7 +125,6 @@ header nav ul li {
     flex: 2 80%;
     display: flex;
     flex-wrap: wrap;
-    align-items: left;
 }
 
 .grid-container {
@@ -136,19 +134,44 @@ header nav ul li {
   grid-auto-flow: dense;
   gap: 10px;
   flex: 2 80%;
+  height: 500px;
 }
 
 .grid-item {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   font-size: 35px;
-  background-color: aquamarine;
+  background-color: #737373;
+  border: #c59da5 solid 5px;
+  color: #272727;
+  text-decoration: none;
 }
 
 .item-1 {
   grid-column: 1/span 2;
   grid-row: 1/span 2;
+  background-image: url(../images/run-buddy-screenshot.png);
+  background-size: cover;
+  background-position: top;
+}
+
+.item-2 {
+  background-image: url(../images/azk12-screenshot.png);
+  background-size: cover;
+  background-position: top;
+}
+
+.item-3 {
+  background-image: url(../images/horiseon-screenshot.png);
+  background-size: cover;
+  background-position: top;
+}
+
+.grid-title {
+  background-color: #c59da5;
+  padding: 8px;
+  font-size: 24px;
 }
 
 .contact-info {
@@ -156,15 +179,15 @@ header nav ul li {
   color: #737373;
   flex: 2 80%;
   display: flex;
-  flex-wrap: wrap;
 }
 
 .contact-info ul li {
   display: inline-block;
+  margin-right: 50px;
 }
 
 .contact-info ul li a {
-  text-decoration: none;
+  text-decoration: underline;
   color: #737373;
 }
 
