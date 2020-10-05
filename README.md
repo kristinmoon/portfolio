@@ -8,4 +8,4 @@ An online portfolio of my coding work thus far.
 
 ## Screencapture
 
-<img src="./assets/images/screencapture-horiseon.png" alt="Horiseon screencapture" />
+<img src="./assets/images/screencapture-portfolio.png" alt="Portfolio screencapture" />
