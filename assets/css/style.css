@@ -166,13 +166,13 @@ header nav ul li a:hover {
 .item-1 {
   grid-column: 1/span 2;
   grid-row: 1/span 2;
-  background-image: url(../images/run-buddy-screenshot.png);
+  background-image: url(../images/screencapture-lookup.png);
   background-size: cover;
   background-position: top;
 }
 
 .item-2 {
-  background-image: url(../images/azk12-screenshot.png);
+  background-image: url(../images/run-buddy-screenshot.png);
   background-size: cover;
   background-position: top;
 }
