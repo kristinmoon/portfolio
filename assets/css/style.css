@@ -183,6 +183,12 @@ header nav ul li a:hover {
   background-position: top;
 }
 
+.item-4 {
+  background-image: url(../images/collaborate-screenshot.png);
+  background-size: cover;
+  background-position: top;
+}
+
 .grid-title {
   background-color: #c59da5;
   padding: 8px;
